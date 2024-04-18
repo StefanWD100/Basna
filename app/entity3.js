@@ -13,7 +13,7 @@ const entity1 = () =>{
     useEffect(() =>{
 
         let story = '';
-        const seeds = ['AAA','AAB'];
+        const seeds = ['AAA','AAB','ABA','ABB'];
         let seed = seeds[Math.floor(Math.random()*seeds.length)];
         let seedEnd = 1;
     
@@ -58,7 +58,7 @@ const entity1 = () =>{
 return(
     
     <View style={styles.container}>
-      <Text>{displayStory}</Text>
+      <Text style={styles.txt}>{displayStory}</Text>
     </View>
     )
 
