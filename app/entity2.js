@@ -1,6 +1,6 @@
 
 import { useState,useEffect } from 'react';
-import { StyleSheet, Text, View ,} from 'react-native';
+import { StyleSheet, Text, View ,ScrollView} from 'react-native';
 import React from 'react';
 import { chapters } from './Lisica';
 
@@ -58,8 +58,11 @@ const entity1 = () =>{
 return(
     
     <View style={styles.container}>
-      <Text style={styles.txt}>{displayStory}</Text>
-    </View>
+    <ScrollView> 
+  <Text   style={styles.txt}>{displayStory}</Text>
+
+    </ScrollView>
+</View>
     )
 
 }
