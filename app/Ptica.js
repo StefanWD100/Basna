@@ -15,6 +15,7 @@ class Chapter extends React.Component{
 
         chapterOne = new Chapter('A',[
            ['Radovi u toku!!! \n'],
+           ['Bilo jednom jedno pile \n'],
            ['Deo A \n'],
            ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.','Proin sit amet lobortis lacus. Duis eget leo nisl.','Vivamus quis scelerisque augue',],
            ['Mauris id feugiat ex.','cococ jumbo',],
