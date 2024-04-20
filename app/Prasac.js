@@ -45,7 +45,7 @@ class Chapter extends React.Component{
            'Jazavac je uvideo svoju priliku da se reši zmaja i plaćanja pa rece prascu. \n \n']
            
        ]),
-        chapterTwoAA = new Chapter('AAA',[
+        chapterThreeAA = new Chapter('AAA',[
            ['"Moraš da siđeš u kanalizaciju, tamo ćeš naći magničnog pacova. Jedino je njegova magija dovoljno jaka da savlada zmaja".'],
            ['Uze prasac svoje verne močvarske čizme i zaputi se ka najbližem šahtu.  ',
            'Vrati se prasac do stana po svoju vernu beterisku lampu i zaputi se u kanalizaciju. '],
@@ -75,6 +75,27 @@ class Chapter extends React.Component{
            ['ali zmaj je prepoznao svračije jaje i za tren ugljenisao prasca',
            '. Zmaj u trenu proguta onaj tost i nesta u oblaku prašine i magočnih konfeta.'],
            [' KRAJ! ']
+       ]),
+        chapterTwoB = new Chapter('AB',[
+           ['Od prijatelja pelikana je čuo da u šumi ima dosta voća po drveću a ponekd i po podu.',
+           'Često bi na putu do kuće zastao da se divi krošnjama drveća obližnje šume. ',
+           'Svakoga jutra bi ga probudila pesma ptica iz obližnje šume. '],
+           ['"Možda je pravi trenutak da se preselim u šumu" pomisli prasac.',
+           'Jednoga dana dok je gacao po močvari zaglavila mu se papuča u blatu i tu je odlučio da se definitivno seli u šumu. '],
+           ['Sutradan se prasac zaputi ka šumi. '],
+           ['za sobom je ostavio '],
+           ['dom sa IKEA ugaonom garniturom pozicioniranom ispred starog TV-a.',
+           'praznjikav Obodin frižider. Ključeve je ostavio kod komšinice veverice da mu zaliva biljke dok nije tu. '],
+           ['Nakon pola sata hodanja prasac je stigao u šumu.'],
+           ['Čim je stigao zastao je da se divi zelenim krošnjama, ovog puta izbliza. ',
+           'Čim je stigao osetio je jak miris šumskog cveća na kakav nije navikao u močvari. ']
+
+       ]),
+        chapterThreeBA = new Chapter('ABA',[
+            ['Radovi u toku ']
+       ]),
+        chapterThtreeBB = new Chapter('ABB',[
+           ['Radovi u toku ']
        ]),
    ]
    
