@@ -11,46 +11,57 @@ const entity1 = () =>{
 
 
     useEffect(() =>{
+        const seeds = [];
+        chapters.forEach(element => {
+            
+            console.log(element.seed.length);
+            if(element.seed.length === 3){
+                
+                seeds.push(element.seed);
+            }
+            
+        });
 
         let story = '';
-        const seeds = ['AAA','AAB','ABA','ABB'];
+        console.log(seeds);
         let seed = seeds[Math.floor(Math.random()*seeds.length)];
         let seedEnd = 1;
-    
-
-    
         
-    const chapterRandomizer = (ch) => {
         
-        ch.forEach(element => {
+        
+        
+        const chapterRandomizer = (ch) => {
             
+            ch.forEach(element => {
+                
             let rand = Math.floor(Math.random()*element.length);
+            console.log(element.length);
             story +=element[rand];
            
         });
 
-              
-            
+        
     }
+        
     const seedCheker = (ch) =>{
         ch.forEach(element => {
-
+            
             if(element.seed === seed.substring(0,seedEnd)){
                 chapterRandomizer(element.ch);
-    
+                
             }
-
+            
         })
         
         seedEnd++;
-
+        
     }
-
+    
     for(let i =0;i<seed.length;i++){
         seedCheker(chapters);
         
     }
-        
+    
     setStory(story);
     
 },[]);
@@ -64,9 +75,9 @@ return(
         </ScrollView>
     </View>
     )
-             
-            
-
+    
+    
+    
 }
 export default entity1;
 

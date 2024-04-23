@@ -13,7 +13,16 @@ const entity1 = () =>{
     useEffect(() =>{
 
         let story = '';
-        const seeds = ['AAA','AAB','ABA','ABB'];
+        const seeds = [];
+        chapters.forEach(element => {
+            
+            console.log(element.seed.length);
+            if(element.seed.length === 3){
+                seeds.push(element.seed);
+            }
+            
+        });
+
         let seed = seeds[Math.floor(Math.random()*seeds.length)];
         let seedEnd = 1;
     

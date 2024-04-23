@@ -88,7 +88,14 @@ class Chapter extends React.Component{
            'praznjikav Obodin frižider. Ključeve je ostavio kod komšinice veverice da mu zaliva biljke dok nije tu. '],
            ['Nakon pola sata hodanja prasac je stigao u šumu.'],
            ['Čim je stigao zastao je da se divi zelenim krošnjama, ovog puta izbliza. ',
-           'Čim je stigao osetio je jak miris šumskog cveća na kakav nije navikao u močvari. ']
+           'Čim je stigao osetio je jak miris šumskog cveća na kakav nije navikao u močvari. '],
+           ['Nije se dugo divio lepoti šume jer ga je putovanje načinilo gladnim.',
+           'Nakon kraćeg upijanja boja,mirisa i zvukova šume prasac je odlučio da nešto čalabrcne'],
+           ['Ugleda prasac puno drvo jabuka koje tek tako rastu i potpuno su besplatne te krenu ždrati. ',
+           'Miris roštilja ga je doveo do šumskog grill majstora pelikana i imao je tek toliko novca kod sebe da prijusti jednu sočnu gurmansku. ',
+           'Pošto je primetio da oko njega zuji mnogo pčela zaključio je da je i košnica u blizini, ubrzo je našao i naždrao se kao prasac kakav jeste'],
+           ['Nakon obilnog obroka krenuo je da tumara šumom u potrazi za mestom za spavanje',
+           'Prascu je pozlilo od obilnog obroka pa je krenuo da mahnito trči po šumi ne bi li pronašao mesto gde če da se olakša']
 
        ]),
         chapterThreeBA = new Chapter('ABA',[
@@ -98,6 +105,7 @@ class Chapter extends React.Component{
            ['Radovi u toku ']
        ]),
    ]
+   
    
 
 
