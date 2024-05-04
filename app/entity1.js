@@ -14,7 +14,6 @@ const entity1 = () =>{
         const seeds = [];
         chapters.forEach(element => {
             
-            console.log(element.seed.length);
             if(element.seed.length === 3){
                 
                 seeds.push(element.seed);
@@ -23,7 +22,6 @@ const entity1 = () =>{
         });
 
         let story = '';
-        console.log(seeds);
         let seed = seeds[Math.floor(Math.random()*seeds.length)];
         let seedEnd = 1;
         
@@ -35,7 +33,6 @@ const entity1 = () =>{
             ch.forEach(element => {
                 
             let rand = Math.floor(Math.random()*element.length);
-            console.log(element.length);
             story +=element[rand];
            
         });

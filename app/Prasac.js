@@ -41,7 +41,7 @@ class Chapter extends React.Component{
            ['Nakon mesec dana bezuspešne potrage za poslom došao je dan za naplatu kirije.',
            'Prasac je narednih mesec dana proveo u obilasku cirkusa i finih restorana, tako je potrošio sav novac predviđen za kiriju. '],
            ['Ne želeći da ga zmaj sprži prasac se požali komšiji jazavcu. '],
-           ['Pošto je jazavac smatrao da je kirija previsoka dao je prascu sledeći savet. ',
+           ['Pošto je jazavac smatrao da je kirija previsoka dao je prascu sledeći savet. \n \n',
            'Jazavac je uvideo svoju priliku da se reši zmaja i plaćanja pa rece prascu. \n \n']
            
        ]),
@@ -84,25 +84,47 @@ class Chapter extends React.Component{
            'Jednoga dana dok je gacao po močvari zaglavila mu se papuča u blatu i tu je odlučio da se definitivno seli u šumu. '],
            ['Sutradan se prasac zaputi ka šumi. '],
            ['za sobom je ostavio '],
-           ['dom sa IKEA ugaonom garniturom pozicioniranom ispred starog TV-a.',
+           ['dom sa IKEA ugaonom garniturom pozicioniranom ispred starog TV-a, to je jedino što nije mogo da ponese sa sobom. ',
            'praznjikav Obodin frižider. Ključeve je ostavio kod komšinice veverice da mu zaliva biljke dok nije tu. '],
            ['Nakon pola sata hodanja prasac je stigao u šumu.'],
            ['Čim je stigao zastao je da se divi zelenim krošnjama, ovog puta izbliza. ',
            'Čim je stigao osetio je jak miris šumskog cveća na kakav nije navikao u močvari. '],
            ['Nije se dugo divio lepoti šume jer ga je putovanje načinilo gladnim.',
-           'Nakon kraćeg upijanja boja,mirisa i zvukova šume prasac je odlučio da nešto čalabrcne'],
+           'Nakon kraćeg upijanja boja,mirisa i zvukova šume prasac je odlučio da nešto čalabrcne. '],
            ['Ugleda prasac puno drvo jabuka koje tek tako rastu i potpuno su besplatne te krenu ždrati. ',
-           'Miris roštilja ga je doveo do šumskog grill majstora pelikana i imao je tek toliko novca kod sebe da prijusti jednu sočnu gurmansku. ',
+           'Miris roštilja ga je doveo do šumskog grill majstora ježa i imao je tek toliko novca kod sebe da prijusti jednu sočnu gurmansku. ',
            'Pošto je primetio da oko njega zuji mnogo pčela zaključio je da je i košnica u blizini, ubrzo je našao i naždrao se kao prasac kakav jeste'],
-           ['Nakon obilnog obroka krenuo je da tumara šumom u potrazi za mestom za spavanje',
-           'Prascu je pozlilo od obilnog obroka pa je krenuo da mahnito trči po šumi ne bi li pronašao mesto gde če da se olakša']
+           ['Nakon obilnog obroka krenuo je da tumara šumom u potrazi za mestom za spavanje. \n \n',
+           'Prascu je pozlilo od obilnog obroka pa je krenuo da mahnito trči po šumi ne bi li pronašao mesto gde če da se olakša i odrema. \n \n']
 
        ]),
         chapterThreeBA = new Chapter('ABA',[
-            ['Radovi u toku ']
+            ['Naišao je na jednu pećinu koja mu se učinila kao dobro mesto za spavanje jer je krenulo da se oblači pa mu je ipak trebala neka zaštita od elemenata. '],
+            ['Nakon kraće dremke probudio ga je zvuk teških koraka ispred pećine, ne znajući šta to može da bude prasac se ipak sakrio u špajz pećine. U tom momentu u pećinu ulete medved koji po svemu sudeći živi u toj pećini. ',
+            'Probudio ga je gromoglasni medveđi glas. "Ja se izvinjavam ali spavaš u mom krevetu, takođe gladan sam i poješću te ovog trena." ',
+            'Prasca je probudio zvuk iz druge sobe, krenuo je da se prikrada polako drugoj sobi. Udrugoj sobi pećine ugledao je gladnog medveda kako čeprka po skoro praznom frižideru. '],
+            ['Iskoristio je trenutak medvedove nepažnje i dao se u beg iz pećine, ali je pregladneli medved pojurio za njim. ',
+            'Istog momenta dade se prasac u beg iz pećine, ali medved je bio previše gladan da ga pusti da tek tako pobegne. '],
+            ['Pope se prasac brzo na drvo, ali pošto su medvedi odlični penjači ',
+            'Otrča prasac u fast food kiosk kod ježa, ali pošto je medved najbolja ježeva mušterija '],
+            ['ubrzo se našo oči u oči s medvedom'],
+            ['"Stani! Nemoj da me pojedeš evo blizu živi moj ukusni prijatelj pelikan, dovešću ti njega."',
+            '"Stani! evo doneću ti gomilu hrane od mog prijatelja pelikana, samo moram prvo da skoknem do njega "'],
+            ['reče prasac. '],
+            ['"Imaš dva\'es minuta da se stvoriš ovde sa pelikanom." '],
+            ['Otrča prasac do Pelikana'],
+            ['i reče "Brate, treba mi ogromna usluga samo pokupi svu hranu koju imaš i pođi zamnom"'],
+            ['Vratiše se do medveda prasac i pelikan ali je medved u međuvremenu pregladneo pa im je samo pola pelikanove hrane uzeo i poslao ih kući. Medved i prasac su nastavili da žive u relativno normalnim komšijskim odnosima sve dok medved ne ogladni previše, u tom slučaju bi se ovaj scenario ponovio',
+             'nakon što mu je prasac objasnio situaciju pelikan ga upita "pa zašto prosto nisi pobego nazad u šumu, još uvek nije kasno za to" reče mudri pelikan. Prasac zastade na sekund i zapita se zašto mu to nije odma palo na pamet, oprosti se tu sa pelikanom i krenuše svako ka svojoj kući. Medved je shvatio da je prevaren pa je seo kod ježa da pojede pljeskavicu. ',
+            'Kad su se vratili kod medveda on je pojeo i prasca i pelikana i svu hranu koju je pelikan poneo, kupio je jednu kiselu kod ježa da bi lakše svario obilni ručak i vratio se u svoju pećinu da odrema. '],
        ]),
         chapterThtreeBB = new Chapter('ABB',[
-           ['Radovi u toku ']
+           ['Pošti je bio lep dan odlučio je da zaspi na mekanoj travi pod vedrim nebom'],
+           [' ali san nije dugo trajao jer ga je probudio zvuk teške mašinerije. ',
+           ' ali ubrzo ga je iz sna trgao zvuk motornih testera. ',
+           ' ali taman što je zaspao probudio ga je dabar insistirajući da se pometi jer je na putu radnicima koji su došli da seku šumu. '],
+           ['']
+         
        ]),
    ]
    

@@ -16,7 +16,6 @@ const entity1 = () =>{
         const seeds = [];
         chapters.forEach(element => {
             
-            console.log(element.seed.length);
             if(element.seed.length === 3){
                 seeds.push(element.seed);
             }
